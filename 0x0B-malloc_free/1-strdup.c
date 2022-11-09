@@ -1,15 +1,15 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - creates a copy aof a string
- * @str: pointer to a string
- * 
+ * _strlen - get string length
+ * @str: pointer to string
+ *
  * Return: 0
  */
 int _strlen(char *str)
 {
 	int i;
-	
+
 	i = 0;
 	while (*str != '\0')
 	{
@@ -18,11 +18,17 @@ int _strlen(char *str)
 	}
 	return (i);
 }
+/**
+ * _strdup - creates a copy of a string
+ * @str: pointer to a string
+ *
+ * Return: 0
+ */
 char *_strdup(char *str)
 {
 	int len, i;
 	char *str2;
-	
+
 	len = _strlen(str);
 	if (str == NULL)
 	{
