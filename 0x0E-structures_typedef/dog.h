@@ -1,3 +1,4 @@
+#define DOG_H
 /**
  * struct dog - create structure for dogs
  * @name: name of the dog
@@ -6,10 +7,11 @@
  *
  * Description: Longer description
  */
-typedef struct
+#ifdef DOG_H
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}dog;
-
+};
+#endif
