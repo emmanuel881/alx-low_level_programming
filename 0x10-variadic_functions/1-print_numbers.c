@@ -1,12 +1,19 @@
 #include <stdio.h>
 #include <stdarg.h>
-
+/**
+ * print_numbers - prints numbers
+ * @separator: a separator between numbers
+ * @n: number of numbers
+ *
+ * Return: void
+ */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	int extract;
 	va_list list;
+
 	va_start(list, n);
 
 	for (i = 0; i < n; i++)
