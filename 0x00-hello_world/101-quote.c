@@ -8,9 +8,8 @@
  */
 int main(void)
 {
-	char mes[60];
+	char m[60] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
-	mes = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	write(STDOUT_FILENO, mes, 59);
+	write(STDOUT_FILENO, m, 59);
 	return (1);
 }
