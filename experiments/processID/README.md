@@ -1,4 +1,6 @@
-### low level shell scripting
-##examples
-* file 1 - maxID(Write a program that prints the PID of the parent process. Run your program several times within the same shell. It should be the same. Does echo $$ print the same value? Why?)
-* file 2 
+# low level shell scripting(everything u need to know to start coding you own shell)
+## examples
+* file 0 - (Write a program that prints the PID of the parent process. Run your program several times within the same shell. It should be the same. Does echo $$ print the same value? Why?)
+* file 1 - maxID(Write a shell script that prints the maximum value a process ID can be)
+* file 2 - (Write a program that prints all the arguments, without using ac.)
+
